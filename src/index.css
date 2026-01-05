@@ -1,0 +1,30 @@
+.app-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.profile-card {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 6px 0;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+@media (max-width: 600px) {
+  .profile-card {
+    flex-direction: column;
+    align-items: center;
+  }
+}
