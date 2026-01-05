@@ -12,38 +12,33 @@
 ## Project Structure
 
 react-user-dashboard/
-|--- src/
-|    |--- assets/         # Static assets
-|    |--- components/     # Reusable UI
-|    |     |--- AddEditTask.jsx
-|    |     |--- ProfileCard.jsx
-|    |     |--- TaskItem.jsx
-|    |     |--- TaskList.jsx
-|    |
-|    |--- context/        # React Context for state management
-|    |    |--- TaskContext.jsx
-|    |
-|    |--- services/       # API / service layer
-|    |    |--- taskService.js
-|    |
-|    |--- tests/          # Unit tests
-|    |    |--- TaskList.test.jsx
-|    |
-|    |--- App.jsx         # Root component
-|    |--- App.css
-|    |--- index.css
-|    |--- main.jsx        # Application entry point
-|    |--- setupTests.js   # Jest setup
-|    |--- theme.js        # MUI theme configuration
-|    |
-|--- .gitignore
-|--- babel.config.js
-|--- index.html
-|--- jest.config.js
-|--- package.json
-|--- package-lock.json
-|--- vite.config.js
-|--- README.md
+├── src/
+│   ├── assets/                # Static assets
+│   ├── components/            # Reusable UI components
+│   │   ├── AddEditTask.jsx
+│   │   ├── ProfileCard.jsx
+│   │   ├── TaskItem.jsx
+│   │   ├── TaskList.jsx
+│   ├── context/               # React Context for state management
+│   │   └── TaskContext.jsx
+│   ├── services/              # API / service layer
+│   │   └── taskService.js
+│   ├── tests/                 # Unit tests
+│   │   └── TaskList.test.jsx
+│   ├── App.jsx                # Root component
+│   ├── App.css
+│   ├── index.css
+│   ├── main.jsx               # Application entry point
+│   ├── setupTests.js          # Jest setup
+│   └── theme.js               # MUI theme configuration
+├── .gitignore
+├── babel.config.js
+├── index.html
+├── jest.config.js
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
 
 ## Features
 - Profile Card: Hardcode sample user data (name, email, photo URL) - Utilities to copy email address or mail directly.
