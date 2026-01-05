@@ -41,6 +41,7 @@ react-user-dashboard/
 ├── package-lock.json
 ├── vite.config.js
 └── README.md
+```
 
 ## Features
 - Profile Card: Hardcode sample user data (name, email, photo URL) - Utilities to copy email address or mail directly.
