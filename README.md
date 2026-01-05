@@ -12,6 +12,7 @@
 
 ## Project Structure
 
+```plaintext
 react-user-dashboard/
 ├── src/
 │   ├── assets/                # Static assets
