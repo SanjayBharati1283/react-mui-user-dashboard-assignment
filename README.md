@@ -1,16 +1,24 @@
-# React + Vite
+# React Assignment - MUI Integration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tech Stack
+- React
+- Material UI (MUI)
+- Vite
 
-Currently, two official plugins are available:
+## Setup Instructions
+1. npm install
+2. npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Profile Card: Hardcode sample user data (name, email, photo URL) - Utilities to copy email address or mail directly.
+- Task List: 
+    > Lists all tasks fetched from a REST API (GET https://jsonplaceholder.typicode.com/todos?userId=1)
+    > A new task can be added (Restricted to add a title atleast of 3 characters)
+    > Existing task names can be edited.
+    > Tasks can be toggled to completed with green tick or incomplete with grey tick.
+- Responsive design
+- Keyboard navigation is added wherever possible.
+- Jest test cases
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Notes
+Assignment submission for evaluation
